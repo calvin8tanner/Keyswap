@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Search, ChevronDown, ChevronUp, MessageCircle, Mail, Phone } from 'lucide-react';
-import { Input } from './ui/input';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Button } from './ui/button';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion';
+import { Input } from '../components/ui/input';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 
 export function HelpCenterPage() {
   const [searchQuery, setSearchQuery] = useState('');

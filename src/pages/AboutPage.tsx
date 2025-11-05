@@ -1,5 +1,5 @@
 import { Building2, Target, Users2, Award } from 'lucide-react';
-import { Card, CardContent } from './ui/card';
+import { Card, CardContent } from '../components/ui/card';
 
 export function AboutPage() {
   return (

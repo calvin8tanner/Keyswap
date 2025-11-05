@@ -1,7 +1,7 @@
 import { Briefcase, MapPin, Clock, ArrowRight, Heart, Zap, Users2, TrendingUp } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Badge } from '../components/ui/badge';
 
 export function CareersPage() {
   const openPositions = [

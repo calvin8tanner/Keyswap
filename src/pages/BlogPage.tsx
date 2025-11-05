@@ -1,8 +1,8 @@
 import { Calendar, User, ArrowRight, TrendingUp, Home, DollarSign } from 'lucide-react';
-import { Card, CardContent } from './ui/card';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { Card, CardContent } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import { Badge } from '../components/ui/badge';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export function BlogPage() {
   const featuredPost = {

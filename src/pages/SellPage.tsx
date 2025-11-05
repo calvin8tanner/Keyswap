@@ -1,14 +1,14 @@
 import { useState } from 'react';
 import { Upload, MapPin, DollarSign, Home, Camera, Plus, X, Star, FileText, AlertCircle } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Checkbox } from './ui/checkbox';
-import { Badge } from './ui/badge';
-import { Separator } from './ui/separator';
-import { Switch } from './ui/switch';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Textarea } from '../components/ui/textarea';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
+import { Checkbox } from '../components/ui/checkbox';
+import { Badge } from '../components/ui/badge';
+import { Separator } from '../components/ui/separator';
+import { Switch } from '../components/ui/switch';
 
 export function SellPage() {
   const [formData, setFormData] = useState({

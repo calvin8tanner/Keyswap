@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Search, MapPin, DollarSign, Home, TrendingUp, Calendar, Users } from 'lucide-react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Card } from './ui/card';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { PropertyFilters } from './PropertyFilters';
-import { PropertyGrid } from './PropertyGrid';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Card } from '../components/ui/card';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../components/ui/select';
+import { PropertyFilters } from '../components/PropertyFilters';
+import { PropertyGrid } from '../components/PropertyGrid';
 
 interface BuyPageProps {
   onPropertySelect: (property: any) => void;

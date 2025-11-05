@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Button } from './ui/button';
-import { Input } from './ui/input';
-import { Card, CardContent, CardHeader } from './ui/card';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Card, CardContent, CardHeader } from '../components/ui/card';
 import { Eye, EyeOff, AlertCircle } from 'lucide-react';
 import { authApi } from '../utils/api';
 

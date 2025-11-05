@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { PropertyFilters } from './PropertyFilters';
-import { PropertyGrid } from './PropertyGrid';
-import { Badge } from './ui/badge';
-import { Button } from './ui/button';
-import { Card } from './ui/card';
+import { PropertyFilters } from '../components/PropertyFilters';
+import { PropertyGrid } from '../components/PropertyGrid';
+import { Badge } from '../components/ui/badge';
+import { Button } from '../components/ui/button';
+import { Card } from '../components/ui/card';
 import { TrendingUp, MapPin, Users, Star, Database } from 'lucide-react';
 import { seedDatabase } from '../utils/seed-helper';
 
